@@ -86,7 +86,6 @@ export default class KeychainExample extends Component {
   }
 
   async load() {
-    console.log('loading creds');
     try {
       const options = {
         authenticationPrompt: {
